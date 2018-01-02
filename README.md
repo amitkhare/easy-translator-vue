@@ -6,7 +6,11 @@ A simple vuejs plugin for multi language traslation.
 `
     import Vue from 'vue'
     import Lang from "easy-translator-js";
+`
 
+## config like so:
+
+`
     Vue.use(Lang, {  
     locale : "hi-IN",
     localePath(path) {
