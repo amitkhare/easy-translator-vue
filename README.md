@@ -1,5 +1,5 @@
 # easy-translator-vue
-A simple vuejs plugin for multi language traslation.
+A simple vuejs plugin for multi language translation.
 
 ## Install
 ### with npm
