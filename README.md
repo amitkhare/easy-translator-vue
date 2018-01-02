@@ -19,3 +19,33 @@ A simple vuejs plugin for multi language traslation.
     });
 
 `
+
+## Sample language file:
+
+en-IN.json
+`
+    {
+    "HELLO": "Hello World."
+    }
+
+`
+
+hi-IN.json
+`
+    {
+    "HELLO": "नमस्कार."
+    }
+
+`
+
+## Usage:
+
+In component template:
+`
+    <h1>{{ $lang('HELLO') }}</h1>
+`
+
+In component script:
+`
+    this.$lang('HELLO');
+`
