@@ -1,6 +1,6 @@
 {
   "name": "easy-translator-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple vuejs plugin for multi language traslation.",
   "main": "index.js",
   "scripts": {
