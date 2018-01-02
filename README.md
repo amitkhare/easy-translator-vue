@@ -1,37 +1,46 @@
-# easy-translator-js
+# easy-translator-vue
 A simple vuejs plugin for multi language traslation.
 
+## Install
+### with npm
+    $ npm install easy-translator-vue --save
+### with yarn
+    $ yarn add easy-translator-vue
+    
 ## attach to vue:
 
 
     import Vue from 'vue'
-    import Lang from "easy-translator-js";
+    import Lang from "easy-translator-vue";
 
 
 ## config like so:
 
-    Vue.use(Lang, {  
-    locale : "hi-IN",
-    localePath(path) {
-        return path = "./path/to/locales/";
-    }
+    import en from "path/to/locales/en.js";
+    import hi from "path/to/locales/hi.js";
+
+    Vue.use(Lang, {
+        locale: "hi",
+        fallbackLocale: "en",
+        locales: { en, hi },
     });
+
     
 
-## Sample language file:
+## Sample language modules:
 
-en-IN.json
+en.js
 
-    {
-    "HELLO": "Hello World."
+    export default {
+        "HELLO": "Hello World."
     }
 
 
 
-hi-IN.json
+hi.js
 
-    {
-    "HELLO": "नमस्कार."
+    export default {
+        "HELLO": "नमस्कार."
     }
 
 
