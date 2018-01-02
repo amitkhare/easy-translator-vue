@@ -1,4 +1,3 @@
-import path from "path";
 import sprintf from "sprintf-js";
 
 const Lang = {
@@ -82,6 +81,6 @@ const Lang = {
 export default Lang;
 
 // Automatic installation if Vue has been added to the global scope.
-if (typeof window !== "undefined" && window.Vue) {
-  window.Vue.use(MyPlugin);
-}
+// if (typeof window !== "undefined" && window.Vue) {
+//   window.Vue.use(MyPlugin);
+// }
