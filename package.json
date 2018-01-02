@@ -1,0 +1,29 @@
+{
+  "name": "easy-translator-vue",
+  "version": "0.0.1",
+  "description": "A simple vuejs plugin for multi language traslation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amitkhare/easy-translator-vue.git"
+  },
+  "dependencies": {
+    "path-is-absolute": "^1.0.1",
+    "sprintf-js": "^1.1.1"
+  },
+  "keywords": [
+    "Locale",
+    "Multi",
+    "Language",
+    "Translator"
+  ],
+  "author": "Amit Kumar Khare <amit@khare.co.in>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitkhare/easy-translator-vue/issues"
+  },
+  "homepage": "https://github.com/amitkhare/easy-translator-vue#readme"
+}
