@@ -32,7 +32,8 @@ A simple vuejs plugin for multi language translation.
 en.js
 
     export default {
-        "HELLO": "Hello World."
+        "HELLO": "Hello World.",
+        "WELCOME" : "Hello %s, Welcome to %s page"
     }
 
 
@@ -40,7 +41,8 @@ en.js
 hi.js
 
     export default {
-        "HELLO": "नमस्कार."
+        "HELLO": "नमस्कार.",
+        "WELCOME" : "हेल्लो %s, %s पेज में आपका स्वागत है"
     }
 
 
@@ -50,8 +52,10 @@ hi.js
 In component template:
 
     <h1>{{ $lang('HELLO') }}</h1>
+    <h2>{{ $lang('WELCOME', ["Amit", "Forum"]) }}</h2>
 
 
 In component script:
 
     this.$lang('HELLO');
+    this.$lang('WELCOME', ["अमित", "फोरम"])
