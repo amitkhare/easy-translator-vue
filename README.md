@@ -7,8 +7,7 @@ A simple vuejs plugin for multi language translation.
 ### with yarn
     $ yarn add easy-translator-vue
     
-## attach to vue:
-
+## import to vue:
 
     import Vue from 'vue'
     import Lang from "easy-translator-vue";
@@ -16,16 +15,16 @@ A simple vuejs plugin for multi language translation.
 
 ## config like so:
 
+### import language modules:
     import en from "path/to/locales/en.js";
     import hi from "path/to/locales/hi.js";
 
+### Attach as Vue plugin
     Vue.use(Lang, {
         locale: "hi",
         fallbackLocale: "en",
         locales: { en, hi },
     });
-
-    
 
 ## Sample language modules:
 
