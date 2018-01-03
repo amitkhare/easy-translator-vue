@@ -15,11 +15,13 @@ A simple vuejs plugin for multi language translation.
 
 ## config like so:
 
-### import language modules:
+##### Import language modules:
+
     import en from "path/to/locales/en.js";
     import hi from "path/to/locales/hi.js";
 
-### Attach as Vue plugin
+##### Attach as Vue plugin
+
     Vue.use(Lang, {
         locale: "hi",
         fallbackLocale: "en",
