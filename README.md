@@ -42,7 +42,7 @@ hi.js
 
     export default {
         "HELLO": "नमस्कार.",
-        "WELCOME" : "हेल्लो %s, %s पेज में आपका स्वागत है"
+        "WELCOME" : "हेल्लो %s, %s पेज में आपका स्वागत है"
     }
 
 
@@ -58,4 +58,16 @@ In component template:
 In component script:
 
     this.$lang('HELLO');
-    this.$lang('WELCOME', ["अमित", "फोरम"])
+    this.$lang('WELCOME', ["अमित", "फोरम"])
+
+## output:
+### en
+
+    <h1>Hello World</h1>
+    <h2>Hello Amit, Welcome to Forum page.</h2>
+
+### hi
+
+    <h1>नमस्कार</h1>
+    <h2>हेल्लो अमित, फोरम पेज में आपका स्वागत है</h2>
+
