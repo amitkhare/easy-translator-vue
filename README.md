@@ -30,7 +30,7 @@ A simple vuejs plugin for multi language translation.
     });
 
 ## Sample language modules:
-### Note: language module's keys should be `UPPERCASE or UPPER_CASE or UPPER-CASE`
+### Note: language module's keys should be `UPPERCASE` or `UPPER_CASE` or `UPPER-CASE`
 
 en.js
 
